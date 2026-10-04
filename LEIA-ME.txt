@@ -1,0 +1,14 @@
+APURAÇÃO 2026 — PWA PARA ANDROID
+
+Arquivos:
+- index.html: aplicativo
+- manifest.webmanifest: instalação como PWA
+- sw.js: cache da interface
+
+Fonte de dados: arquivos públicos oficiais do TSE em https://resultados.tse.jus.br/oficial
+1º turno 2026: eleição federal 6257 e estadual 6259.
+Cargos: Presidente 1, Governador 3, Senador 5.
+
+Para usar no Android como aplicativo, estes arquivos precisam estar publicados em um endereço HTTPS (por exemplo, GitHub Pages). Depois, abra o endereço no Chrome e use "Adicionar à tela inicial" / "Instalar app".
+
+O painel atualiza automaticamente a cada 60 segundos. Na tela Presidente, consulta Brasil + 27 UFs. Governador e Senador consultam apenas a UF escolhida.
